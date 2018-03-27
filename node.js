@@ -10,7 +10,7 @@ var app = express();
 	}
 });*/
 
-app.get('/tokens',function(request,response)
+app.get('/',function(request,response)
 {
 response.send("hi");
 
